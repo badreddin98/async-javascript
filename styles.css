@@ -1,0 +1,44 @@
+/* My custom styles for the Marvel API project */
+
+/* Make the character cards look nice */
+.character-card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.character-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Make sure the images look good */
+.character-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Style the timer display */
+#timerDisplay {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+/* Style the notifications */
+.notification {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+}
+
+.notification.warning {
+    border-left-color: #ffc107;
+}
+
+.notification.success {
+    border-left-color: #28a745;
+}
